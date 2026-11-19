@@ -26,7 +26,7 @@ spec:
           mountPath: /etc/nginx/ssl
       containers:
       - name: app
-        image: nginx:stable-alpine3.23-perl
+        image: nginx:1.30.7-alpine-slim
         volumeMounts:
         - name: config
           mountPath: "/etc/nginx/conf.d"
