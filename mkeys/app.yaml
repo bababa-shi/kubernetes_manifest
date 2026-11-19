@@ -42,7 +42,7 @@ spec:
       # Launch App
       containers:
       - name: app
-        image: php:8.2-apache
+        image: php:8.5-apache
         volumeMounts:
         - name: appdir
           mountPath: /var/www/html
